@@ -46,8 +46,4 @@ public class Main {
         float usageCurrent=0.246f;
         float usageDifference=usageCurrent-usageNeeded;
         System.out.println(usageDifference);
-        System.out.println("Each person must save 0.072332 cubic meters of water every day");
-
-
-    }
-}
+        System.out.println("Each person must save " + usageDifference + " cubic meters of water every day");
